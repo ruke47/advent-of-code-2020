@@ -1,0 +1,1086 @@
+Name: Base
+  PC: 0
+  ACC: 0
+  CMD: ('jmp', 265)
+
+Name: Clone(0)
+  PC: 1
+  ACC: 0
+  CMD: ('jmp', 326)
+
+Name: Clone(0)
+  PC: 327
+  ACC: 0
+  CMD: ('acc', 12)
+
+Name: Clone(0)
+  PC: 328
+  ACC: 12
+  CMD: ('acc', 37)
+
+Name: Clone(0)
+  PC: 329
+  ACC: 49
+  CMD: ('acc', 48)
+
+Name: Clone(0)
+  PC: 330
+  ACC: 97
+  CMD: ('acc', 24)
+
+Name: Clone(0)
+  PC: 331
+  ACC: 121
+  CMD: ('jmp', -176)
+
+Name: Clone(0)
+  PC: 155
+  ACC: 121
+  CMD: ('jmp', 1)
+
+Name: Clone(0)
+  PC: 156
+  ACC: 121
+  CMD: ('acc', 42)
+
+Name: Clone(0)
+  PC: 157
+  ACC: 163
+  CMD: ('jmp', -146)
+
+Name: Clone(0)
+  PC: 11
+  ACC: 163
+  CMD: ('jmp', 3)
+
+Name: Clone(0)
+  PC: 14
+  ACC: 163
+  CMD: ('acc', -10)
+
+Name: Clone(0)
+  PC: 15
+  ACC: 153
+  CMD: ('acc', 35)
+
+Name: Clone(0)
+  PC: 16
+  ACC: 188
+  CMD: ('jmp', 527)
+
+Name: Clone(0)
+  PC: 543
+  ACC: 188
+  CMD: ('nop', -7)
+
+Name: Clone(0)
+  PC: 544
+  ACC: 188
+  CMD: ('acc', 15)
+
+Name: Clone(0)
+  PC: 545
+  ACC: 203
+  CMD: ('acc', -14)
+
+Name: Clone(0)
+  PC: 546
+  ACC: 189
+  CMD: ('jmp', 53)
+
+Name: Clone(0)
+  PC: 599
+  ACC: 189
+  CMD: ('acc', 3)
+
+Name: Clone(0)
+  PC: 600
+  ACC: 192
+  CMD: ('jmp', -576)
+
+Name: Clone(0)
+  PC: 24
+  ACC: 192
+  CMD: ('jmp', 1)
+
+Name: Clone(0)
+  PC: 25
+  ACC: 192
+  CMD: ('acc', 45)
+
+Name: Clone(0)
+  PC: 26
+  ACC: 237
+  CMD: ('jmp', -24)
+
+Name: Clone(0)
+  PC: 2
+  ACC: 237
+  CMD: ('acc', 41)
+
+Name: Clone(0)
+  PC: 3
+  ACC: 278
+  CMD: ('acc', 21)
+
+Name: Clone(0)
+  PC: 4
+  ACC: 299
+  CMD: ('nop', 255)
+
+Name: Clone(0)
+  PC: 5
+  ACC: 299
+  CMD: ('jmp', 104)
+
+Name: Clone(0)
+  PC: 109
+  ACC: 299
+  CMD: ('acc', 31)
+
+Name: Clone(0)
+  PC: 110
+  ACC: 330
+  CMD: ('acc', -19)
+
+Name: Clone(0)
+  PC: 111
+  ACC: 311
+  CMD: ('nop', 342)
+
+Name: Clone(0)
+  PC: 112
+  ACC: 311
+  CMD: ('jmp', -78)
+
+Name: Clone(0)
+  PC: 34
+  ACC: 311
+  CMD: ('acc', 45)
+
+Name: Clone(0)
+  PC: 35
+  ACC: 356
+  CMD: ('jmp', 238)
+
+Name: Clone(0)
+  PC: 273
+  ACC: 356
+  CMD: ('jmp', 263)
+
+Name: Clone(0)
+  PC: 536
+  ACC: 356
+  CMD: ('acc', -8)
+
+Name: Clone(0)
+  PC: 537
+  ACC: 348
+  CMD: ('acc', 24)
+
+Name: Clone(0)
+  PC: 538
+  ACC: 372
+  CMD: ('jmp', -30)
+
+Name: Clone(0)
+  PC: 508
+  ACC: 372
+  CMD: ('acc', -2)
+
+Name: Clone(0)
+  PC: 509
+  ACC: 370
+  CMD: ('acc', 42)
+
+Name: Clone(0)
+  PC: 510
+  ACC: 412
+  CMD: ('jmp', -269)
+
+Name: Clone(0)
+  PC: 241
+  ACC: 412
+  CMD: ('acc', 15)
+
+Name: Clone(0)
+  PC: 242
+  ACC: 427
+  CMD: ('acc', 6)
+
+Name: Clone(0)
+  PC: 243
+  ACC: 433
+  CMD: ('acc', 46)
+
+Name: Clone(0)
+  PC: 244
+  ACC: 479
+  CMD: ('acc', -11)
+
+Name: Clone(0)
+  PC: 245
+  ACC: 468
+  CMD: ('jmp', -35)
+
+Name: Clone(0)
+  PC: 210
+  ACC: 468
+  CMD: ('jmp', 127)
+
+Name: Clone(0)
+  PC: 337
+  ACC: 468
+  CMD: ('acc', 42)
+
+Name: Clone(0)
+  PC: 338
+  ACC: 510
+  CMD: ('jmp', 30)
+
+Name: Clone(0)
+  PC: 368
+  ACC: 510
+  CMD: ('acc', 39)
+
+Name: Clone(0)
+  PC: 369
+  ACC: 549
+  CMD: ('acc', 18)
+
+Name: Clone(0)
+  PC: 370
+  ACC: 567
+  CMD: ('jmp', 51)
+
+Name: Clone(0)
+  PC: 421
+  ACC: 567
+  CMD: ('acc', 50)
+
+Name: Clone(0)
+  PC: 422
+  ACC: 617
+  CMD: ('acc', -13)
+
+Name: Clone(0)
+  PC: 423
+  ACC: 604
+  CMD: ('acc', -15)
+
+Name: Clone(0)
+  PC: 424
+  ACC: 589
+  CMD: ('acc', 33)
+
+Name: Clone(0)
+  PC: 425
+  ACC: 622
+  CMD: ('jmp', -279)
+
+Name: Clone(0)
+  PC: 146
+  ACC: 622
+  CMD: ('acc', 7)
+
+Name: Clone(0)
+  PC: 147
+  ACC: 629
+  CMD: ('nop', 94)
+
+Name: Clone(0)
+  PC: 148
+  ACC: 629
+  CMD: ('acc', 12)
+
+Name: Clone(0)
+  PC: 149
+  ACC: 641
+  CMD: ('jmp', 433)
+
+Name: Clone(0)
+  PC: 582
+  ACC: 641
+  CMD: ('acc', 50)
+
+Name: Clone(0)
+  PC: 583
+  ACC: 691
+  CMD: ('nop', -488)
+
+Name: Clone(0)
+  PC: 584
+  ACC: 691
+  CMD: ('acc', 45)
+
+Name: Clone(0)
+  PC: 585
+  ACC: 736
+  CMD: ('jmp', -305)
+
+Name: Clone(0)
+  PC: 280
+  ACC: 736
+  CMD: ('acc', 26)
+
+Name: Clone(0)
+  PC: 281
+  ACC: 762
+  CMD: ('acc', 4)
+
+Name: Clone(0)
+  PC: 282
+  ACC: 766
+  CMD: ('jmp', -56)
+
+Name: Clone(0)
+  PC: 226
+  ACC: 766
+  CMD: ('acc', 6)
+
+Name: Clone(0)
+  PC: 227
+  ACC: 772
+  CMD: ('jmp', -198)
+
+Name: Clone(0)
+  PC: 29
+  ACC: 772
+  CMD: ('jmp', 344)
+
+Name: Clone(0)
+  PC: 373
+  ACC: 772
+  CMD: ('nop', -19)
+
+Name: Clone(0)
+  PC: 374
+  ACC: 772
+  CMD: ('jmp', 114)
+
+Name: Clone(0)
+  PC: 488
+  ACC: 772
+  CMD: ('acc', 42)
+
+Name: Clone(0)
+  PC: 489
+  ACC: 814
+  CMD: ('jmp', -470)
+
+Name: Clone(0)
+  PC: 19
+  ACC: 814
+  CMD: ('jmp', 511)
+
+Name: Clone(0)
+  PC: 530
+  ACC: 814
+  CMD: ('acc', 49)
+
+Name: Clone(0)
+  PC: 531
+  ACC: 863
+  CMD: ('acc', -12)
+
+Name: Clone(0)
+  PC: 532
+  ACC: 851
+  CMD: ('acc', 30)
+
+Name: Clone(0)
+  PC: 533
+  ACC: 881
+  CMD: ('acc', 21)
+
+Name: Clone(0)
+  PC: 534
+  ACC: 902
+  CMD: ('jmp', -335)
+
+Name: Clone(0)
+  PC: 199
+  ACC: 902
+  CMD: ('jmp', -15)
+
+Name: Clone(0)
+  PC: 184
+  ACC: 902
+  CMD: ('acc', -16)
+
+Name: Clone(0)
+  PC: 185
+  ACC: 886
+  CMD: ('jmp', 102)
+
+Name: Clone(0)
+  PC: 287
+  ACC: 886
+  CMD: ('acc', -15)
+
+Name: Clone(0)
+  PC: 288
+  ACC: 871
+  CMD: ('acc', -13)
+
+Name: Clone(0)
+  PC: 289
+  ACC: 858
+  CMD: ('acc', -7)
+
+Name: Clone(0)
+  PC: 290
+  ACC: 851
+  CMD: ('acc', 35)
+
+Name: Clone(0)
+  PC: 291
+  ACC: 886
+  CMD: ('jmp', 270)
+
+Name: Clone(0)
+  PC: 561
+  ACC: 886
+  CMD: ('acc', 25)
+
+Name: Clone(0)
+  PC: 562
+  ACC: 911
+  CMD: ('acc', 38)
+
+Name: Clone(0)
+  PC: 563
+  ACC: 949
+  CMD: ('acc', 47)
+
+Name: Clone(0)
+  PC: 564
+  ACC: 996
+  CMD: ('jmp', -257)
+
+Name: Clone(0)
+  PC: 307
+  ACC: 996
+  CMD: ('acc', 5)
+
+Name: Clone(0)
+  PC: 308
+  ACC: 1001
+  CMD: ('nop', -218)
+
+Name: Clone(0)
+  PC: 309
+  ACC: 1001
+  CMD: ('acc', 47)
+
+Name: Clone(0)
+  PC: 310
+  ACC: 1048
+  CMD: ('acc', -18)
+
+Name: Clone(0)
+  PC: 311
+  ACC: 1030
+  CMD: ('jmp', 208)
+
+Name: Clone(0)
+  PC: 519
+  ACC: 1030
+  CMD: ('acc', 22)
+
+Name: Clone(0)
+  PC: 520
+  ACC: 1052
+  CMD: ('acc', 47)
+
+Name: Clone(0)
+  PC: 521
+  ACC: 1099
+  CMD: ('jmp', 4)
+
+Name: Clone(0)
+  PC: 525
+  ACC: 1099
+  CMD: ('nop', -402)
+
+Name: Clone(0)
+  PC: 526
+  ACC: 1099
+  CMD: ('jmp', -312)
+
+Name: Clone(0)
+  PC: 214
+  ACC: 1099
+  CMD: ('acc', 27)
+
+Name: Clone(0)
+  PC: 215
+  ACC: 1126
+  CMD: ('jmp', -50)
+
+Name: Clone(0)
+  PC: 165
+  ACC: 1126
+  CMD: ('acc', -8)
+
+Name: Clone(0)
+  PC: 166
+  ACC: 1118
+  CMD: ('jmp', 55)
+
+Name: Clone(0)
+  PC: 221
+  ACC: 1118
+  CMD: ('jmp', -157)
+
+Name: Clone(0)
+  PC: 64
+  ACC: 1118
+  CMD: ('acc', 45)
+
+Name: Clone(0)
+  PC: 65
+  ACC: 1163
+  CMD: ('acc', 46)
+
+Name: Clone(0)
+  PC: 66
+  ACC: 1209
+  CMD: ('nop', 193)
+
+Name: Clone(0)
+  PC: 67
+  ACC: 1209
+  CMD: ('jmp', 346)
+
+Name: Clone(0)
+  PC: 413
+  ACC: 1209
+  CMD: ('acc', 43)
+
+Name: Clone(0)
+  PC: 414
+  ACC: 1252
+  CMD: ('acc', 50)
+
+Name: Clone(0)
+  PC: 415
+  ACC: 1302
+  CMD: ('acc', 49)
+
+Name: Clone(0)
+  PC: 416
+  ACC: 1351
+  CMD: ('jmp', 63)
+
+Name: Clone(0)
+  PC: 479
+  ACC: 1351
+  CMD: ('acc', 21)
+
+Name: Clone(0)
+  PC: 480
+  ACC: 1372
+  CMD: ('nop', -456)
+
+Name: Clone(0)
+  PC: 481
+  ACC: 1372
+  CMD: ('acc', 7)
+
+Name: Clone(0)
+  PC: 482
+  ACC: 1379
+  CMD: ('jmp', -97)
+
+Name: Clone(0)
+  PC: 385
+  ACC: 1379
+  CMD: ('acc', 36)
+
+Name: Clone(0)
+  PC: 386
+  ACC: 1415
+  CMD: ('acc', 21)
+
+Name: Clone(0)
+  PC: 387
+  ACC: 1436
+  CMD: ('acc', -13)
+
+Name: Clone(0)
+  PC: 388
+  ACC: 1423
+  CMD: ('acc', 3)
+
+Name: Clone(0)
+  PC: 389
+  ACC: 1426
+  CMD: ('jmp', -266)
+
+Name: Clone(0)
+  PC: 123
+  ACC: 1426
+  CMD: ('jmp', 4)
+
+Name: Clone(0)
+  PC: 127
+  ACC: 1426
+  CMD: ('acc', 14)
+
+Name: Clone(0)
+  PC: 128
+  ACC: 1440
+  CMD: ('acc', 32)
+
+Name: Clone(0)
+  PC: 129
+  ACC: 1472
+  CMD: ('jmp', 122)
+
+Name: Clone(0)
+  PC: 251
+  ACC: 1472
+  CMD: ('acc', 28)
+
+Name: Clone(0)
+  PC: 252
+  ACC: 1500
+  CMD: ('acc', 17)
+
+Name: Clone(0)
+  PC: 253
+  ACC: 1517
+  CMD: ('jmp', 127)
+
+Name: Clone(0)
+  PC: 380
+  ACC: 1517
+  CMD: ('jmp', -191)
+
+Name: Clone(0)
+  PC: 189
+  ACC: 1517
+  CMD: ('jmp', 283)
+
+Name: Clone(0)
+  PC: 472
+  ACC: 1517
+  CMD: ('acc', -13)
+
+Name: Clone(0)
+  PC: 473
+  ACC: 1504
+  CMD: ('jmp', -466)
+
+Name: Clone(0)
+  PC: 7
+  ACC: 1504
+  CMD: ('jmp', 568)
+
+Name: Clone(0)
+  PC: 575
+  ACC: 1504
+  CMD: ('acc', 15)
+
+Name: Clone(0)
+  PC: 576
+  ACC: 1519
+  CMD: ('acc', 24)
+
+Name: Clone(0)
+  PC: 577
+  ACC: 1543
+  CMD: ('acc', 38)
+
+Name: Clone(0)
+  PC: 578
+  ACC: 1581
+  CMD: ('jmp', 9)
+
+Name: Clone(0)
+  PC: 587
+  ACC: 1581
+  CMD: ('acc', 34)
+
+Name: Clone(0)
+  PC: 588
+  ACC: 1615
+  CMD: ('jmp', -410)
+
+Name: Clone(0)
+  PC: 178
+  ACC: 1615
+  CMD: ('acc', 31)
+
+Name: Clone(0)
+  PC: 179
+  ACC: 1646
+  CMD: ('acc', 6)
+
+Name: Clone(0)
+  PC: 180
+  ACC: 1652
+  CMD: ('jmp', 223)
+
+Name: Clone(0)
+  PC: 403
+  ACC: 1652
+  CMD: ('acc', 31)
+
+Name: Clone(0)
+  PC: 404
+  ACC: 1683
+  CMD: ('jmp', 165)
+
+Name: Clone(0)
+  PC: 569
+  ACC: 1683
+  CMD: ('acc', 15)
+
+Name: Clone(0)
+  PC: 570
+  ACC: 1698
+  CMD: ('acc', 29)
+
+Name: Clone(0)
+  PC: 571
+  ACC: 1727
+  CMD: ('acc', 29)
+
+Name: Clone(0)
+  PC: 572
+  ACC: 1756
+  CMD: ('acc', 5)
+
+Name: Clone(0)
+  PC: 573
+  ACC: 1761
+  CMD: ('jmp', -111)
+
+Name: Clone(0)
+  PC: 462
+  ACC: 1761
+  CMD: ('nop', -378)
+
+Name: Clone(0)
+  PC: 463
+  ACC: 1761
+  CMD: ('acc', -17)
+
+Name: Clone(0)
+  PC: 464
+  ACC: 1744
+  CMD: ('acc', 26)
+
+Name: Clone(0)
+  PC: 465
+  ACC: 1770
+  CMD: ('acc', -11)
+
+Name: Clone(0)
+  PC: 466
+  ACC: 1759
+  CMD: ('jmp', -272)
+
+Name: Clone(0)
+  PC: 194
+  ACC: 1759
+  CMD: ('jmp', 252)
+
+Name: Clone(0)
+  PC: 446
+  ACC: 1759
+  CMD: ('jmp', 1)
+
+Name: Clone(0)
+  PC: 447
+  ACC: 1759
+  CMD: ('jmp', -376)
+
+Name: Clone(0)
+  PC: 71
+  ACC: 1759
+  CMD: ('acc', 0)
+
+Name: Clone(0)
+  PC: 72
+  ACC: 1759
+  CMD: ('nop', 187)
+
+Name: Clone(0)
+  PC: 73
+  ACC: 1759
+  CMD: ('acc', 31)
+
+Name: Clone(0)
+  PC: 74
+  ACC: 1790
+  CMD: ('acc', 30)
+
+Name: Clone(0)
+  PC: 75
+  ACC: 1820
+  CMD: ('jmp', 40)
+
+Name: Clone(0)
+  PC: 115
+  ACC: 1820
+  CMD: ('jmp', 1)
+
+Name: Clone(0)
+  PC: 116
+  ACC: 1820
+  CMD: ('acc', 18)
+
+Name: Clone(0)
+  PC: 117
+  ACC: 1838
+  CMD: ('jmp', 278)
+
+Name: Clone(0)
+  PC: 395
+  ACC: 1838
+  CMD: ('jmp', 58)
+
+Name: Clone(0)
+  PC: 453
+  ACC: 1838
+  CMD: ('acc', -2)
+
+Name: Clone(0)
+  PC: 454
+  ACC: 1836
+  CMD: ('jmp', 1)
+
+Name: Clone(0)
+  PC: 455
+  ACC: 1836
+  CMD: ('acc', -2)
+
+Name: Clone(0)
+  PC: 456
+  ACC: 1834
+  CMD: ('jmp', -361)
+
+Name: Clone(0)
+  PC: 95
+  ACC: 1834
+  CMD: ('acc', -5)
+
+Name: Clone(0)
+  PC: 96
+  ACC: 1829
+  CMD: ('acc', -11)
+
+Name: Clone(0)
+  PC: 97
+  ACC: 1818
+  CMD: ('jmp', 217)
+
+Name: Clone(0)
+  PC: 314
+  ACC: 1818
+  CMD: ('acc', 27)
+
+Name: Clone(0)
+  PC: 315
+  ACC: 1845
+  CMD: ('jmp', 126)
+
+Name: Clone(0)
+  PC: 441
+  ACC: 1845
+  CMD: ('acc', 15)
+
+Name: Clone(0)
+  PC: 442
+  ACC: 1860
+  CMD: ('jmp', -12)
+
+Name: Clone(0)
+  PC: 430
+  ACC: 1860
+  CMD: ('acc', 18)
+
+Name: Clone(0)
+  PC: 431
+  ACC: 1878
+  CMD: ('acc', -14)
+
+Name: Clone(0)
+  PC: 432
+  ACC: 1864
+  CMD: ('acc', 42)
+
+Name: Clone(0)
+  PC: 433
+  ACC: 1906
+  CMD: ('jmp', -106)
+
+Name: Base
+  PC: 0
+  ACC: 0
+  CMD: ('jmp', 265)
+
+Name: Base
+  PC: 265
+  ACC: 0
+  CMD: ('nop', 278)
+
+Name: Base
+  PC: 265
+  ACC: 0
+  CMD: ('nop', 278)
+
+Name: Base
+  PC: 266
+  ACC: 0
+  CMD: ('nop', 259)
+
+Name: Base
+  PC: 266
+  ACC: 0
+  CMD: ('nop', 259)
+
+Name: Base
+  PC: 267
+  ACC: 0
+  CMD: ('acc', 35)
+
+Name: Base
+  PC: 268
+  ACC: 35
+  CMD: ('jmp', -86)
+
+Name: Clone(268)
+  PC: 269
+  ACC: 35
+  CMD: ('jmp', 1)
+
+Name: Clone(268)
+  PC: 270
+  ACC: 35
+  CMD: ('jmp', 84)
+
+Name: Clone(268)
+  PC: 354
+  ACC: 35
+  CMD: ('acc', 11)
+
+Name: Clone(268)
+  PC: 355
+  ACC: 46
+  CMD: ('acc', 44)
+
+Name: Clone(268)
+  PC: 356
+  ACC: 90
+  CMD: ('nop', -254)
+
+Name: Clone(268)
+  PC: 357
+  ACC: 90
+  CMD: ('jmp', 52)
+
+Name: Clone(268)
+  PC: 409
+  ACC: 90
+  CMD: ('acc', 6)
+
+Name: Clone(268)
+  PC: 410
+  ACC: 96
+  CMD: ('nop', -330)
+
+Name: Clone(268)
+  PC: 411
+  ACC: 96
+  CMD: ('jmp', 26)
+
+Name: Clone(268)
+  PC: 437
+  ACC: 96
+  CMD: ('jmp', -314)
+
+Name: Base
+  PC: 268
+  ACC: 35
+  CMD: ('jmp', -86)
+
+Name: Base
+  PC: 182
+  ACC: 35
+  CMD: ('jmp', 306)
+
+Name: Clone(182)
+  PC: 183
+  ACC: 35
+  CMD: ('jmp', 214)
+
+Name: Clone(182)
+  PC: 397
+  ACC: 35
+  CMD: ('acc', -17)
+
+Name: Clone(182)
+  PC: 398
+  ACC: 18
+  CMD: ('acc', 44)
+
+Name: Clone(182)
+  PC: 399
+  ACC: 62
+  CMD: ('jmp', -319)
+
+Name: Clone(182)
+  PC: 80
+  ACC: 62
+  CMD: ('jmp', 279)
+
+Name: Clone(182)
+  PC: 359
+  ACC: 62
+  CMD: ('acc', -9)
+
+Name: Clone(182)
+  PC: 360
+  ACC: 53
+  CMD: ('acc', 50)
+
+Name: Clone(182)
+  PC: 361
+  ACC: 103
+  CMD: ('acc', -9)
+
+Name: Clone(182)
+  PC: 362
+  ACC: 94
+  CMD: ('jmp', -229)
+
+Name: Clone(182)
+  PC: 133
+  ACC: 94
+  CMD: ('acc', 32)
+
+Name: Clone(182)
+  PC: 134
+  ACC: 126
+  CMD: ('acc', 26)
+
+Name: Clone(182)
+  PC: 135
+  ACC: 152
+  CMD: ('acc', 33)
+
+Name: Clone(182)
+  PC: 136
+  ACC: 185
+  CMD: ('jmp', 48)
+
+Name: Base
+  PC: 182
+  ACC: 35
+  CMD: ('jmp', 306)
+
+Never found an out.
