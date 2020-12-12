@@ -1,5 +1,4 @@
 import unittest
-from itertools import repeat
 
 class Board:
     def __init__(self, board):
