@@ -1,5 +1,4 @@
 import re
-import unittest
 
 mask_pattern = re.compile("mask = ([01X]+)")
 write_pattern = re.compile("mem\\[(\d+)\\] = (\d+)")
@@ -14,12 +13,12 @@ def calculate_masks(mask_str):
             floating_idx.append(i)
     return (ones_mask, floating_idx)
 
-def get_all_addresses(base_address, floating_bits):
+def get_all_addresses(base_address, ones_mask, floating_bits):
     if len(floating_bits) == 0:
-        return [base_address]
+        return [base_address|ones_mask]
     else:
         my_idx = floating_bits[-1]
-        child_addresses = get_all_addresses(base_address, floating_bits[:-1])
+        child_addresses = get_all_addresses(base_address, ones_mask, floating_bits[:-1])
         my_addresses = []
         for child_address in child_addresses:
             one_mask = 2**my_idx
@@ -39,10 +38,9 @@ def main():
             if mask_match:
                 ones_mask, floating_bits = calculate_masks(mask_match.group(1))
             elif write_match:
-                base_address_str, value_str = write_match.group(1, 2)
-                base_address = int(base_address_str) | ones_mask
-                for address in get_all_addresses(base_address, floating_bits):
-                    memory[int(address)] = int(value_str) 
+                base_address, value_str = write_match.group(1, 2)
+                for address in get_all_addresses(int(base_address), ones_mask, floating_bits):
+                    memory[address] = int(value_str) 
             else:
                 raise ValueError("Neither pattern matched " + line)
 
