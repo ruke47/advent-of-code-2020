@@ -3,9 +3,10 @@ import regex
 rule_pattern = regex.compile("(\\d+): (.*)")
 
 class Pattern:
-    def __init__(self, rule_map, rule_text):
+    def __init__(self, rule_map, rule_text, name=None):
         self.rule_map = rule_map
         self.rule_text = rule_text
+        self.name = name
 
     def detangle(self):
         # if the rule is quoted, just take the literal character
@@ -23,7 +24,10 @@ class Pattern:
                 regex_str += part
 
         # surround yourself with a non-capturing group so letters don't smush together
-        return "(?:" + regex_str + ")"
+        if self.name:
+            return "(?P<" + self.name + ">" + regex_str + ")"
+        else:
+            return "(?:" + regex_str + ")"
 
 def main():
     rule_map = {}
@@ -38,7 +42,7 @@ def main():
         # `8: 42 | 42 8` means "at least 1 of whatever 42 is
         rule_map["8"] = Pattern(rule_map, "42 +")
         # `11: 42 31 | 42 11 31` means "at least one 42, followed by the same number of 31's"
-        rule_map["11"] = Pattern(rule_map, "42 (?R)? 31")
+        rule_map["11"] = Pattern(rule_map, "42 (?&SR11)? 31", name="SR11")
 
         gross_regex_str = rule_map["0"].detangle()
         print(f"Regex: {gross_regex_str}")
