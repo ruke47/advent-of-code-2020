@@ -1,5 +1,4 @@
 from unittest import TestCase
-import re
 
 def tokenize(text_iter):
     cur_text = ""
