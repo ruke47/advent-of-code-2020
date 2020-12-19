@@ -18,6 +18,7 @@ class Pattern:
             if part.isdecimal():
                 regex_str += self.rule_map[part].detangle()
             # if the part is non-numeric, treat it as a string literal | or + or, uh, (?R)?
+            # see https://www.regular-expressions.info/recurse.html
             else: 
                 regex_str += part
 
