@@ -71,6 +71,41 @@ class Tile:
         else:
             raise ValueError("Specify left or top!")
 
+    def get_meat(self):
+        output = [[None] * 8 for x in range(8)]
+        for i in (1, 5):
+            top = self.values[i][i:10-i]
+            left = [self.values[x][i] for x in range(1, 10)]
+            bottom = self.values[10-i][i:10-i]
+            right = [self.values[x][10-i] for x in range(1,10)]
+
+            for r in range(self.rotations):
+                top, right, bottom, left = right[::-1], top, left[::-1], bottom
+
+            if self.hflip:
+                left, right = left[::-1], right[::-1]
+                top, bottom = bottom, top
+
+            if self.vflip:
+                top, bottom = top[::-1], bottom[::-1]
+                left, right = right, left 
+
+            for dx, value in enumerate(top):
+                output[i-1][i+dx] = value
+            
+            for dy, value in enumerate(left):
+                output[i+dy][i-1] = value
+            
+            for dx, value in enumerate(bottom):
+                ouput[10-i-1][i+dx] = value
+            
+            for dy, value in enumerate(right):
+                output[i+dy][10-i-1] = value
+
+
+        return output
+
+
 def main():
     tiles = []
     with open("input.txt") as file:
@@ -217,6 +252,10 @@ class Test(unittest.TestCase):
         tile.flip_h()
         self.assertEqual((tile.top, tile.right, tile.bottom, tile.left), (0b0010111000, 0b0001000010, 0b1010111110, 0b0001011001))
         self.assertEqual((tile.top_i, tile.right_i, tile.bottom_i, tile.left_i), (0b0001110100, 0b0100001000, 0b0111110101, 0b1001101000))
+
+    def test_meat(self):
+        tile = self.ref_tile()
+
 
 if __name__ == "__main__":
     main()
